@@ -101,7 +101,7 @@ for (i in 1:length(flist) ){
   # Compute NDVI
   NDVI = (nir.R - red.R) / (nir.R + red.R)
   
-  # Convert NDVI to integer values after multiplying by 100
+  # Convert NDVI to integer values after multiplying by 1000
   NDVI_int = NDVI * 1000
   NDVI_int[] = round(NDVI_int[])
   # Save NDVI raster to file (as an ERDAS Imagine file)
