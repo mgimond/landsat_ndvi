@@ -1,6 +1,8 @@
-# landsat_ndvi
+# landsat_ndvi.R
 
 This repo houses an R-script that converts multiple red and near-infrared Landsat bands to normalized difference vegetation index (NDVI) rasters. This script is currently used in a couple of undergraduate courses. Since this script has not been fully vetted, caution should be taken if used for research.
+
+This script requires the `raster` package and `rgdal` (which is not explicitly attached to the script but is used by `raster` to read/write certain raster file formats).
 
 ## Input files stored in the ./input folder:
 
