@@ -12,6 +12,7 @@ This repo houses an R-script that converts multiple red and near-infrared Landsa
 * NDVI rasters (for each input Landsat scene) rescaled to 1000. The rescaling allows the raster to be stored as an integer thus significantly reducing the file size.
 
 ## Sample dataset
-A sample set of landsat files (subsets of their original extents) are available in the sample.zip file. Simply unzip this file in the folder that houses the landsatNDVI.R script then run the script. Output will be saved in the ./output folder.
+A sample set of landsat files (subsets of their original extents) are available in the sample.zip file. Simply unzip this file in the folder that houses the landsatNDVI.R script then run the script. Output will be saved in the ./output folder which is initially empty. 
+
 
 
